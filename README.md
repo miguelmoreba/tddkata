@@ -4,11 +4,11 @@ The goal of TDD (Test Driven Development) is to write only the production test t
 Every change in the production code should be driven by a new test case previously written.
 With this approach, we try to capture as many test cases as we can before writing our implementation.
 
-This "baby step" approach is encouraged in some companies to avoid polluting code with unnecessary/untested behaviour, so the production code can be kept clean, mantainable and documented with tests.
+This "baby step" approach is encouraged in some companies to avoid polluting code with unnecessary/untested behavior, so the production code can be kept clean, maintainable and documented with tests.
 
 For this kata, we will use the following approach:
 
-Write a failing test, documenting a behaviour you expect from your code but is not yet implemented
+Write a failing test, documenting a behavior you expect from your code but is not yet implemented
 
 The next person will write the code to make that test pass (should be a very incremental change)
 
@@ -24,7 +24,7 @@ Extra rules:
 
 
 Given a delimited string (e.g. "1, 2")
-The goal is to write a function / class method that takes a delimeted string (e.g. "1, 2", "5  // 7 // 2", "25 \n 98") as a parameter and returns the sum of the values.
+The goal is to write a function / class method that takes a delimited string (e.g. "1, 2", "5  // 7 // 2", "25 \n 98") as a parameter and returns the sum of the values.
 
 The requirements for this project are:
 
@@ -33,7 +33,7 @@ The requirements for this project are:
 - If a single number (always as a string) is passed, return the value
 - There should be three delimiters supported: "," "//" and "\n"
 - Negative numbers are not allowed (maybe throw an exception)
-- Numbers bigger than 1000 should be ignored (e.g. 2 + 1001 shoudl return 2)
+- Numbers bigger than 1000 should be ignored (e.g. 2 + 1001 should return 2)
 
 Extensions:
 
