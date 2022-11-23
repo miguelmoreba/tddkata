@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/register": "^7.6.2",
-    "karma": "^4.3.0",
+    "karma": "^6.4.1",
     "mocha": "^6.2.1"
   },
   "devDependencies": {
